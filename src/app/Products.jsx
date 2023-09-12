@@ -4,7 +4,7 @@ export default function Products() {
   const products = ["Product 1", "Product 2", "Product 3", "Product 4"];
   return (
     <section className="h-screen w-screen flex flex-col items-center justify-center p-24">
-      <h2 className="text-5xl font-extrabold">Product dari halaman partial</h2>
+    <h2 className="text-5xl font-extrabold">Product</h2>
       <div className="bg-blue-500 h-full w-full mt-10 carousel carousel-center rounded-box">
        
         {products.map((product, index) => (
