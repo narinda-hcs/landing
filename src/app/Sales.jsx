@@ -14,9 +14,9 @@ export default function Sales() {
               width={400}
               height={400}
               alt="Picture of the author"
-              className="bg-blue-200"
+              className="bg-blue-200 w-2/5 ml-16"
             />
-            <div>
+            <div className="w-3/5 mr-16">
               <div className="bg-slate-400 w-full flex flex-col justify-center">
                 <h3 className="text-center">{sales}</h3>
                 <h4 className="text-center"> deskripsi {sales} {Team.length}</h4>
