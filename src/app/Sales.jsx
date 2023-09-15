@@ -8,7 +8,7 @@ export default function Sales() {
       <div className="bg-blue-500 h-full w-full mt-10 carousel carousel-center rounded-box">
        
         {Team.map((sales, index) => (
-          <div className="carousel-item relative w-full flex flex-row justify-center items-center bg-orange-300" id={`Carossales${index}`}> 
+          <div key={sales} className="carousel-item relative w-full flex flex-row justify-center items-center bg-orange-300" id={`Carossales${index}`}> 
             <Image
               src="/next.svg"
               width={400}
